@@ -32,11 +32,24 @@
                 padding: 10px 20px;
                 border: 2px solid red;
                 cursor: pointer;
+                margin: 10px;
+            }
+            audio 
+            {
+                margin-top: 20px;
+                width: 300px;
+                filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+                border-radius: 28px;
             }
             pre 
             {
                 white-space: pre-wrap;
                 max-width: 80%;
+            }
+            .button-container 
+            {
+                display: flex;
+                justify-content: center;
             }
         </style>
         <body>
@@ -44,6 +57,10 @@
             <a href = "https://www.youtube.com/watch?v=yzTuBuRdAyA" target = "_blank" >
             <img src="TheHills.jpg" alt="The Hills" height="500">
             </a>
+            <audio controls>
+                <source src="TheHills.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
             <pre style="color: rgb(209, 201, 201); font-size: x-large;">
 [Intro]
 Yeah
